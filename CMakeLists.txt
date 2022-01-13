@@ -239,13 +239,13 @@ install(
     LIBRARY DESTINATION lib
     RUNTIME DESTINATION bin)
 
-if (ENABLE_CAPI_BUILD)
-    install(
-        TARGETS kfr_capi
-        ARCHIVE DESTINATION lib
-        LIBRARY DESTINATION lib
-        RUNTIME DESTINATION bin)
-endif ()
+#if (ENABLE_CAPI_BUILD)
+#    install(
+#        TARGETS kfr_capi
+#        ARCHIVE DESTINATION lib
+#        LIBRARY DESTINATION lib
+#        RUNTIME DESTINATION bin)
+#endif ()
 
 set(kfr_defines)
 
